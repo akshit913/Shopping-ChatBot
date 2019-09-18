@@ -1,0 +1,22 @@
+{
+  "name": "trial",
+  "version": "1.0.0",
+  "description": "try",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "botbuilder": "^3.14.0",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.9",
+    "path": "^0.12.7",
+    "restify": "^6.3.4"
+  },
+  "devDependencies": {
+    "botbuilder-timeout": "^1.0.6"
+  }
+}

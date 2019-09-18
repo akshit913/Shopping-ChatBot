@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Welcome to EasyDay!</title>
+    <style type="text/css">
+      div{
+      background-color: white;
+      border-radius: 10px;
+      }
+      body{
+        background-color: grey;
+        padding: 5px;
+      }
+      label{
+        padding:5px;
+        font-size: 25px;
+      }
+      input{
+        padding: 5px;
+        font-size: 20px;
+        margin: 5px;
+      }
+    </style>
+  </head> 
+  <body>
+    <div>
+    <h1>Welcome to Easyday!</h1>
+    <form method="post" action="/addItem">
+      <label>Enter the name of the item to be added:</label><br>
+      <input type="text" name="itemname" placeholder="name" required><br>
+      <label>Enter the price of the item to be added:</label><br>
+      <input type="text" name="price" placeholder="price" required><br>
+      <label>Enter the quantity of the item to be added:</label><br>
+      <input type="text" name="quantity" placeholder="quantity" required><br>
+      <input type="submit" value="Add Item"><br>
+    </form>
+    </div>  
+  </body>
+</html>
